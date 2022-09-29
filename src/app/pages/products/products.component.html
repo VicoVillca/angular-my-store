@@ -1,1 +1,11 @@
-<p>products works!</p>
+<section class="products">
+    <mat-card class="card" *ngFor="let product of products">
+     <mat-card-title>{{product.name}}</mat-card-title>
+     <mat-card-content>{{product.description}}</mat-card-content>
+     <mat-card-actions>precio:{{product.price}}</mat-card-actions>
+    </mat-card>
+</section>
+
+<pre>
+    {{products | json}}
+</pre>
