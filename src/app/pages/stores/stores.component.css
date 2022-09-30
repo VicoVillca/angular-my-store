@@ -1,9 +1,10 @@
 .main-div{
-    height: 100vh;
-    display: flex;
+    height: 150vh;
     justify-content: center;
     align-items: center;
+    padding: 20px;
   }
+
 .example-card {
     max-width: 400px;
   }
