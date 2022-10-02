@@ -7,13 +7,14 @@ import { MaterialModule } from './material.module';
 import { HeaderComponent } from './shared/component/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
+import { CartComponent } from './shared/component/header/cart/cart.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-
+    CartComponent
   ],
   imports: [
     BrowserModule,

@@ -4,11 +4,13 @@ import { CommonModule } from '@angular/common';
 import { ProductsRoutingModule } from './products-routing.module';
 import { ProductsComponent } from './products.component';
 import { MaterialModule } from 'src/app/material.module';
+import { ProductoComponent } from './product/producto.component';
 
 
 @NgModule({
   declarations: [
-    ProductsComponent
+    ProductsComponent,
+    ProductoComponent
   ],
   imports: [
     CommonModule,
